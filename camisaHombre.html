@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ropa de Hombres</title>
+<link rel="stylesheet" href="../estilos/stylesMenus.css" />
+</head>
+<body>
+
+<div id="carrito">
+    <div>
+        <strong>Total:</strong> <span id="total">$0.00</span>
+        <button id="eliminar-todo">Eliminar todo</button>
+    </div>
+    <div id="cantidad-total">Productos en carrito: 0</div>
+</div>
+
+<h1>Camisas de Hombres</h1>
+
+<div class="productos-container">
+    <div class="producto" data-precio="155.00" data-id="1">
+        <img src="../img/camisa1H.jpg" alt="Playera Azul" />
+        <h2>Camisa Azul</h2>
+        <p class="descripcion">
+            Esta playera azul de algodón es perfecta para ocasiones formales o casuales.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            La playera está hecha con algodón de alta calidad, tiene un ajuste cómodo y un diseño clásico que combina con cualquier atuendo.
+        </div>
+        <p class="precio">Precio: $155.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-1">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="1" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="130.00" data-id="2">
+        <img src="../img/camisa2H.jpg" alt="Playera Blanca" />
+        <h2>Camisa Blanca</h2>
+        <p class="descripcion">Playera camisa blanca de corte ajustado, ideal para oficinas y eventos formales.</p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Fabricada con tela de alta calidad, esta camisa blanca es una pieza imprescindible en tu armario. Fácil de combinar y muy cómoda.
+        </div>
+        <p class="precio">Precio: $130.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-2">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="2" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="128.00" data-id="3">
+        <img src="../img/camisa3H.jpg" alt="Camisa de mezclilla" />
+        <h2>Camisa de mezclilla</h2>
+        <p class="descripcion">Casual camisa de mezclilla perfecta para un look relajado y moderno.</p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Hecha con tela de mezclilla resistente, esta camisa es ideal para días casuales y eventos informales.
+        </div>
+        <p class="precio">Precio: $128.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-3">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="3" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="180.00" data-id="4">
+        <img src="../img/camisa4H.jpg" alt="Camisa de lino" />
+        <h2>Camisa de lino</h2>
+        <p class="descripcion">Ligera y fresca, perfecta para días calurosos y eventos al aire libre.</p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Confeccionada en lino natural, esta camisa ofrece comodidad y estilo en días cálidos.
+        </div>
+        <p class="precio">Precio: $180.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-4">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="4" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="240.00" data-id="5">
+        <img src="../img/camisa5H.jpg" alt="Camisa de seda" />
+        <h2>Camisa de seda</h2>
+        <p class="descripcion">Elegante camisa de seda para ocasiones formales y eventos especiales.</p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Hecha con seda pura, esta camisa brinda lujo y comodidad en cualquier evento.
+        </div>
+        <p class="precio">Precio: $240.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-5">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="5" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+</div>
+
+<button class="boton-regresar" onclick="window.location.href='../principal.html'">Regresar a la página principal</button>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

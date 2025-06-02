@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Shorts de Hombres</title>
+<link rel="stylesheet" href="../estilos/stylesMenus.css" />
+</head>
+<body>
+
+<div id="carrito">
+    <div>
+        <strong>Total:</strong> <span id="total">$0.00</span>
+        <button id="eliminar-todo">Eliminar todo</button>
+    </div>
+    <div id="cantidad-total">Productos en carrito: 0</div>
+</div>
+
+<h1>Shorts de Hombres</h1>
+
+<div class="productos-container">
+    <div class="producto" data-precio="150.00" data-id="1">
+        <img src="../img/shortH1.jpg" alt="Shorts Cargo" />
+        <h2>Shorts Cargo</h2>
+        <p class="descripcion">
+            Shorts de cargo resistentes, ideales para actividades al aire libre y estilo casual.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Hechos en algodón duradero, con múltiples bolsillos y cinturilla ajustable para mayor comodidad.
+        </div>
+        <p class="precio">Precio: $150.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-1">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="1" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="245.00" data-id="2">
+        <img src="../img/shortH2.jpg" alt="Shorts Cintura Alta" />
+        <h2>Shorts Cintura Alta</h2>
+        <p class="descripcion">
+            Shorts ajustados en cintura alta, perfectos para un look moderno y favorecedor.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Confeccionados en tela elástica, ofrecen comodidad y estilo en días cálidos o para salir.
+        </div>
+        <p class="precio">Precio: $245.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-2">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="2" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="950.00" data-id="3">
+        <img src="../img/shortH3.jpg" alt="Shorts Deportivos" />
+        <h2>Shorts Deportivos</h2>
+        <p class="descripcion">
+            Shorts deportivos cómodos, ideales para entrenar o actividades físicas.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Fabricados en poliéster transpirable, con cinturilla elástica y bolsillos laterales.
+        </div>
+        <p class="precio">Precio: $950.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-3">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="3" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="25.00" data-id="4">
+        <img src="../img/shortH4.jpg" alt="Shorts Casual" />
+        <h2>Shorts Casual</h2>
+        <p class="descripcion">
+            Shorts en tela ligera, perfectos para días calurosos y looks relajados.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Confeccionados en algodón o mezclilla, con corte recto y detalles sencillos.
+        </div>
+        <p class="precio">Precio: $25.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-4">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="4" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+    <div class="producto" data-precio="160.00" data-id="5">
+        <img src="../img/shortH5.jpg" alt="Shorts Básicos" />
+        <h2>Shorts Básicos</h2>
+        <p class="descripcion">
+            Shorts sencillos en colores neutros, ideales para combinar con diferentes estilos.
+        </p>
+        <button class="leer-mas-btn">Leer más</button>
+        <div class="descripcion-ampliada" style="display:none;">
+            Hechos en algodón suave, con tiro medio y detalles minimalistas para un look clásico.
+        </div>
+        <p class="precio">Precio: $160.00</p>
+        <button class="agregar-carrito-btn">Agregar al carrito</button>
+        <div class="cantidad-producto" id="cantidad-5">Cantidad en carrito: 0</div>
+        <button class="eliminar-producto-btn" data-id="5" style="margin-top:5px;">Eliminar este producto</button>
+    </div>
+</div>
+
+<button class="boton-regresar" onclick="window.location.href='../principal.html'">Regresar a la página principal</button>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
